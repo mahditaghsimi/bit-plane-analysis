@@ -45,6 +45,16 @@ Four representative bits were selected: Bits 7, 5, 3, 0, for both images
 <img width="989" height="790" alt="download (2)" src="https://github.com/user-attachments/assets/8a11bace-1951-491e-9ffa-50a7d3ec3a30" />
 
 ## 5️ Comparative Observations
-Image Type	Dominant Bits	Structure Visibility	Pixel Intensity Distribution
-Cameraman	6–7	Clear object boundaries	Skewed toward 0 & 255
-Sinusoidal Synthetic	5–7	Periodic pattern	Balanced binary bands
+| Image Type | Dominant Bits | Structure Visibility | Pixel Intensity Distribution |
+|-------------|---------------|----------------------|------------------------------|
+| Cameraman | 6–7 | Clear object boundaries | Skewed toward 0 & 255 |
+| Sinusoidal Synthetic | 5–7 | Periodic pattern | Balanced binary bands |
+
+## 6️ Implementation Details
+All operations were performed using NumPy, OpenCV, and Matplotlib.
+
+Each figure was manually spaced and annotated for clarity.
+
+Main files:
+
+```src/bit_plane_functions.py — extraction and plotting logic```
